@@ -7,7 +7,6 @@
     padding: 0;
     width: 100%;
     flex-direction: row;
-    
 }
 
 .nav-item {
@@ -24,8 +23,52 @@
 }
 
 h1 {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+body {
+    background-color: rgba(205, 226, 231, 0.8);
     font-family: 'Kings', cursive;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    
 }
+
+main {
+
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: flex;
+    flex-flow: column;
+    max-width: 750px;
+    margin: 25px 100px 25px 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+img {
+    max-width: 750px;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(135, 147, 150, 0.8);
+    color: #fff;
+    font: bold;
+}
+
+div {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-shadow: 0 0 4px #000;
+}
+

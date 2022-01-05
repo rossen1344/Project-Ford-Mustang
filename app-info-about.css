@@ -1,0 +1,13 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow:wrap;
+    justify-content:space-around;
+
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}

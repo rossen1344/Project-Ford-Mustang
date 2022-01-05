@@ -1,0 +1,49 @@
+
+.left-image {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: flex;
+    flex-flow: column;
+    max-width: 750px;
+    margin: 25px 100px 25px 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+img {
+    max-width: 750px;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(135, 147, 150, 0.8);
+    color: #fff;
+    font: bold;
+}
+
+div {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-shadow: 0 0 4px #000;
+}
+
+.right-image {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.image2 {
+    display: flex;
+    flex-flow: column;
+    max-width: 750px;
+    margin: 25px 10px 25px 100px;
+    box-shadow: -10px 10px 5px grey;
+}
+
+hr {
+    border: 2px solid black;
+}

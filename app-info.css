@@ -8,14 +8,14 @@
 }
 
 .image {
-    flex-basis: 1000%;
+    flex-basis: 200%;
     flex-flow: column;
     box-shadow: -10px 10px 5px grey;
     margin-right: 20px;
 }
 
 .image1 {
-    flex-basis: 800%;
+    flex-basis: 100%;
     flex-flow: column;
     box-shadow: -10px 10px 5px grey;
     margin-right: 20px;

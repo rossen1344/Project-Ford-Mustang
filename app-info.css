@@ -1,0 +1,41 @@
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10em;
+    
+}
+
+.image {
+    flex-basis: 1000%;
+    flex-flow: column;
+    box-shadow: -10px 10px 5px grey;
+    margin-right: 20px;
+}
+
+.image1 {
+    flex-basis: 800%;
+    flex-flow: column;
+    box-shadow: -10px 10px 5px grey;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(78, 205, 209, 0.8);
+    color: #fff;
+    font: bold;
+    
+}
+
+.text {
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 20px;
+}

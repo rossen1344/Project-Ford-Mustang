@@ -39,3 +39,15 @@ figcaption {
     padding-right: 50px;
     padding-left: 20px;
 }
+
+ol {
+    padding-left: 45rem;
+    margin-top: 2em;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 3em;
+}

@@ -31,8 +31,8 @@ body {
     background-color: rgba(205, 226, 231, 0.8);
     font-family: 'Kings', cursive;
     font-family: 'Poppins', sans-serif;
-    
 }
 
-
-
+main {
+    margin-bottom: 400px;
+}

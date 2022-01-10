@@ -1,0 +1,43 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow:wrap;
+    justify-content:space-around;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3, h4, h5 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.line {
+    border:3px solid black;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.table.table-gray.table-striped {
+    margin-bottom: 100px;
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: #bfe4ff;
+}
+
+.text1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+

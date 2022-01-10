@@ -3,18 +3,21 @@
     flex-direction: row;
     display: flex;
     margin-bottom: 30px;
+    
 }
 
 .image {
     display: flex;
     flex-flow: column;
-    max-width: 750px;
     margin: 25px 100px 25px 10px;
     box-shadow: 10px 10px 5px grey;
+    flex-basis: 400%;
 }
 
 img {
-    max-width: 750px;
+    width: 100%;
+    height: auto;
+    
 }
 
 figcaption {
@@ -42,6 +45,7 @@ div {
     max-width: 750px;
     margin: 25px 10px 25px 100px;
     box-shadow: -10px 10px 5px grey;
+    flex-basis: 400%;
 }
 
 hr {
